@@ -1,0 +1,50 @@
+HAVE TO FIX 1 CHAIR ROTATION
+
+
+		//game objects
+
+		//desks
+		GE.levelObjs[0].addRotation();
+		GE.levelObjs[0].setPosition(glm::vec3(-43.0f, 0.0f, -22.0f));
+
+
+		GE.levelObjs[1].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		//GE.levelObjs[2].addRotation();
+		GE.levelObjs[1].setPosition(glm::vec3(8.0f, 0.0f, 20.0f));
+
+		GE.levelObjs[2].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		GE.levelObjs[2].setPosition(glm::vec3(-12.0f, 0.0f, -3.0f));
+
+
+		
+
+		GE.levelObjs[3].setPosition(glm::vec3(-17.5f, 0.0f, 20.0f));
+
+		//drawers
+		//GE.levelObjs[4].setRotation(glm::vec3(0.0f, -1.0f, 0.0f));
+		GE.levelObjs[4].addRotation();
+		GE.levelObjs[4].setPosition(glm::vec3(-22.0f, 2.0f, -10.0f));
+
+		GE.levelObjs[5].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		//GE.levelObjs[5].addRotation();
+		GE.levelObjs[5].setPosition(glm::vec3(-3.0f, 2.0f, -10.0f));
+
+		GE.levelObjs[6].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		//GE.levelObjs[6].addRotation();
+		GE.levelObjs[6].setPosition(glm::vec3(-15.0f, 2.0f, -33.0f));
+
+		//chairs
+		GE.levelObjs[7].setPosition(glm::vec3(12.0f, 3.0f, 22.0f));
+
+		GE.levelObjs[8].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		GE.levelObjs[8].setPosition(glm::vec3(-21.5f, 3.0f, 22.0f));
+
+		GE.levelObjs[9].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		//GE.levelObjs[9].addRotation();
+		GE.levelObjs[9].setPosition(glm::vec3(-10.0f, 3.0f, -7.0f));
+
+
+
+		//door
+		GE.levelObjs[10].setRotation(glm::vec3(0.0f, 1.0f, 0.0f));
+		GE.levelObjs[10].setPosition(glm::vec3(29.0f, 0.0f, -40.0f));
